@@ -1,0 +1,54 @@
+.reveal {
+  /**
+   * Classes
+   */
+  .logo-tesseract,
+  .logo-git,
+  .img-flow-basico {
+    background: none;
+    border:     0;
+    box-shadow: 0 0 0 rgba(0,0,0,0.15);
+  }
+
+  .logo-tesseract {
+    margin-bottom: 2em;
+  }
+
+  .linux-terminal {
+    background-color: #000;
+    padding:          2% 5%;
+
+    .terminal-dollar {
+      color: #00ff00;
+    }
+
+    .terminal-error {
+      color: #FF0000;
+    }
+  }
+
+  .windows-terminal {
+    background-color: #000;
+    padding:          2% 5%;
+
+    .terminal-emphasis {
+      color: #0000ff;
+    }
+  }
+
+  .folder-color {
+    color: #f2fe98;
+  }
+
+  .notepad-color {
+    color: #7cd7ce;
+  }
+
+  .cor-windows {
+    color: #0178d6;
+  }
+
+  .cor-linux {
+    color: #dd4814;
+  }
+}

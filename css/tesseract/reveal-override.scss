@@ -1,0 +1,12 @@
+/**
+ * Reveal override
+ */
+.reveal {
+  section {
+    img {
+      background: none;
+      border:     0;
+      box-shadow: none;
+    }
+  }
+}
