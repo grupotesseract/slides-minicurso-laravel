@@ -6,6 +6,8 @@
 
     <title>Tesseract | Home Office e Equipes Remotas</title>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/reveal.min.css">
     <link rel="stylesheet" href="css/theme/black.css">
@@ -50,7 +52,8 @@
     <div class="reveal">
       <div class="slides">
 
-        <!-- Logo Tesseract -->
+        <!-- Logo, Título e Subtítulo -->
+        <!-- TODO: migrar para Markdown -->
         <section>
           <img class="logo-tesseract"
             data-src="../assets/images/png/logo-tesseract-completo-branco.png"
@@ -58,18 +61,19 @@
             height="220" />
 
           <h5>Home Office e Equipes Remotas</h5>
-          <h6>SubHome Office e Equipes Remotas</h6>
+          <h6>Ferramentas, boas práticas e dificuldades</h6>
         </section>
 
         <!-- Capítulo 0: Introdução -->
+        <!-- TODO: migrar para Markdown -->
         <section>
-          <h1>Cabeçalho h1</h1>
-          <h2>Cabeçalho h2</h2>
-          <h3>Cabeçalho h3</h3>
-          <h4>Cabeçalho h4</h4>
-          <h5>Cabeçalho h5</h5>
-          <h6>Cabeçalho h6</h6>
+          <h4>Quem Somos?</h4>
+          <p class="fragment">Somos o Tesseract</p>
         </section>
+
+        <!-- Capítulo 1: Como funciona o Home Office? -->
+        <section data-markdown="slides/slide-01.md" data-transition="none"></section>
+        <section data-markdown="slides/slide-02.md" data-transition="none"></section>
 
       </div>
     </div>
@@ -90,7 +94,7 @@
           slideNumber: false,
 
           // Push each slide change to the browser history
-          history: false,
+          history: true,
 
           // Enable keyboard shortcuts for navigation
           keyboard: true,

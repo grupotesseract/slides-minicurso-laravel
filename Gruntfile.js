@@ -97,6 +97,7 @@ module.exports = function (grunt) {
     connect: {
       server: {
         options: {
+          hostname: 'localhost',
           port: port,
           base: root,
           livereload: true,
@@ -134,7 +135,7 @@ module.exports = function (grunt) {
         files: root.map(path => path + '/*.html')
       },
       markdown: {
-        files: root.map(path => path + '/*.md')
+        files: root.map(path => path + '/slides/*.md')
       },
       options: {
         livereload: true

@@ -49,7 +49,7 @@
 /**
  * Typography
  */
-p, span {
+body {
   font-family: "EdmondSans Medium", serif, sans-serif; }
 
 .reveal .titulo-secao-0 {
