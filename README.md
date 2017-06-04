@@ -1,13 +1,13 @@
 # Slides Tesseract
 
-Repositório utilizado como base dos slides do Tesseract. Utilizamos o [reveal-js](http://lab.hakim.se/reveal-js/#/) como base.
+Repositório utilizado como base dos slides do Tesseract. Baseado no projeto open-source [reveal-js](http://lab.hakim.se/reveal-js/#/).
 
-# Requisitos
+## Requisitos
 
 - [NodeJS](https://nodejs.org/en/download)
 - [Grunt](https://gruntjs.com)
 
-# Instalação
+## Instalação
 
 ``` sh
 git clone git@github.com:grupotesseract/slides-core.git
