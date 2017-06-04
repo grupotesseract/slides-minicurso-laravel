@@ -4,8 +4,8 @@ Repositório utilizado como base dos slides do Tesseract. Utilizamos o [reveal-j
 
 # Requisitos
 
-- Node
-- Grunt
+- [NodeJS](https://nodejs.org/en/download)
+- [Grunt](https://gruntjs.com)
 
 # Instalação
 
