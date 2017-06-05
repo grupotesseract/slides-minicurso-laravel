@@ -94,6 +94,20 @@ body {
     font-family: $font-family-jaapokki-subtract;
   }
 
+  a {
+    color: #d2cf69;
+
+    &:hover {
+      color: darken(#d2cf69, 20%);
+    }
+
+    i {
+      margin-left:  5px;
+      margin-right: 5px;
+      font-size:    70%;
+    }
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: $font-family-jaapokki-regular;
   }
@@ -107,5 +121,12 @@ body {
 
   .texto-com-sombra {
     text-shadow: -2px 3px 1px #000;
+  }
+
+  ul ul,
+  ul ol,
+  ol ol,
+  ol ul {
+    font-size: 80%;
   }
 }

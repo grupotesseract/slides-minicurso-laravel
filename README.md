@@ -20,3 +20,5 @@ cd palestra-home-office
 npm i
 npm start
 ```
+
+Feita a instalação, basta abrir o endereço http://localhost:8000 no navegador.

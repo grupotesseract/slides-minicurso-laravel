@@ -55,7 +55,7 @@ module.exports = function (grunt) {
 
     autoprefixer: {
       dist: {
-        src: 'css/reveal.css'
+        src: ['css/reveal.css', 'css/tesseract.css']
       }
     },
 
@@ -97,11 +97,11 @@ module.exports = function (grunt) {
     connect: {
       server: {
         options: {
-          hostname: 'localhost',
-          port: port,
-          base: root,
+          hostname:   'localhost',
+          port:       port,
+          base:       root,
           livereload: true,
-          open: true
+          open:       false
         }
       },
     },
@@ -132,10 +132,10 @@ module.exports = function (grunt) {
         tasks: 'css-core'
       },
       html: {
-        files: root.map(path => path + '/*.html')
+        files: ['**/*.html']
       },
       markdown: {
-        files: root.map(path => path + '/slides/*.md')
+        files: ['**/*.md']
       },
       options: {
         livereload: true
