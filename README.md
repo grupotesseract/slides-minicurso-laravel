@@ -1,9 +1,10 @@
-# Palestra "Home Office e Equipes Remotas"
+# Minicurso "Introdução ao Laravel"
 
-**Palestra**: Home Office e Equipes Remotas, compartilhando conhecimento, dificuldades e ferramentas.  
-**Descrição**: Nessa conversa queremos compartilhar relatos e experiências pessoais de como é trabalhar com desenvolvimento remoto, abordando parte do conhecimento adquirido, as ferramentas das quais utilizamos e também as dificuldades encontradas.  
-**Local**: Jornada de Computação, UNESP, Bauru, SP  
-**Data**: 05/06/2017 21:00  
+**Minicurso**: Slides para orientar o minicurso "Introdução ao Laravel"
+**Descrição**: Vamos desenvolver juntos uma aplicação simples utilizando
+do framework Laravel, abordando conceitos, entendendo a estrutura e aprendendo na pratica
+**Local**: Jornada de Computação, UNESP, Bauru, SP
+**Data**: 06/06/2017 14:00
 
 Baseado no projeto open-source [reveal-js](http://lab.hakim.se/reveal-js/#/).
 
@@ -15,8 +16,8 @@ Baseado no projeto open-source [reveal-js](http://lab.hakim.se/reveal-js/#/).
 ## Instalação
 
 ``` sh
-git clone git@github.com:grupotesseract/palestra-home-office.git
-cd palestra-home-office
+git clone git@github.com:grupotesseract/slides-minicurso-laravel.git
+cd slides-minicurso-laravel
 npm i
 npm start
 ```
